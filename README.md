@@ -16,10 +16,10 @@ The tool finds application in facial forensics, media content generation, and lo
 
 The project utilizes a pre-trained SAM model built on the StyleGAN architecture. Facial images undergo preprocessing, including alignment, resizing, and normalization. These images are encoded into the latent space using a pSp encoder and then manipulated to reflect various age transformations through learned style vectors. The transformed images are then rendered back into photorealistic outputs using the StyleGAN generator. The model pipeline is wrapped in an interactive Gradio interface for seamless user interaction.
 
-Architecture
+### Architecture:
 ![Image](https://github.com/user-attachments/assets/e86a6161-87d5-42ac-a567-54b7a7719f54)
 
-Results 
+### Results :
 ![Image](https://github.com/user-attachments/assets/61ee1f8f-09f9-4140-b538-bca0537b489f)
 
 ## Conclusion
